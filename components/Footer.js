@@ -17,9 +17,9 @@ function Footer() {
 				<a className="underline">About</a>
 			</Link>
 
-			<a href="/" className="underline">
+			<Link href="/" className="underline">
 				Home
-			</a>
+			</Link>
 		</div>
 	);
 }
