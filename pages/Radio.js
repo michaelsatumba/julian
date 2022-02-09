@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Radio() {
 	return (
@@ -27,33 +28,41 @@ function Radio() {
 			</div>
 
 			<a href="https://www.kcsb.org/">
-				<img
+				<Image
 					src="/radio.png"
 					alt="radio"
 					objectFit="contain" // change to suit your needs
 					className="cursor-pointer"
+					width={500}
+					height={300}
 				/>
 			</a>
 			<div className="flex flex-col align-center p-2 space-y-4">
-				<img
+				<Image
 					src="/r1.png"
 					alt="radio"
 					objectFit="contain" // change to suit your needs
 					className="cursor-pointer"
+					width={500}
+					height={700}
 				/>
 
-				<img
+				<Image
 					src="/r2.png"
 					alt="radio"
 					objectFit="contain" // change to suit your needs
 					className="cursor-pointer"
+					width={500}
+					height={400}
 				/>
 
-				<img
+				<Image
 					src="/r3.png"
 					alt="radio"
 					objectFit="contain" // change to suit your needs
 					className="cursor-pointer"
+					width={500}
+					height={500}
 				/>
 			</div>
 

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import Footer from '../components/Footer';
 
@@ -27,12 +28,15 @@ function VirtualZine() {
 				<p>Click the title page to start reading!</p>
 
 				<a href="https://issuu.com/julilook/docs/span157_final_draft_jenna_y_julian_-_print">
-					<img
-						src="/book.png"
-						alt="radio"
-						objectFit="contain" // change to suit your needs
-						className="cursor-pointer mt-2"
-					/>
+					<div className="h-96 w-screen relative">
+						<Image
+							src="/book.png"
+							alt="radio"
+							objectFit="contain" // change to suit your needs
+							className="cursor-pointer mt-2"
+							layout="fill"
+						/>
+					</div>
 				</a>
 			</div>
 
